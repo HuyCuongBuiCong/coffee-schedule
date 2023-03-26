@@ -1,0 +1,29 @@
+[
+  { "timeSlot": "morning", "date": "2023-03-27", "requiredNumberOfEmployees": 3 , "employees": [] },
+  { "timeSlot": "afternoon", "date": "2023-03-27", "requiredNumberOfEmployees": 4 , "employees": [] },
+  { "timeSlot": "evening", "date": "2023-03-27", "requiredNumberOfEmployees": 5 , "employees": [] },
+
+  { "timeSlot": "morning", "date": "2023-03-28", "requiredNumberOfEmployees": 2 , "employees": [] },
+  { "timeSlot": "afternoon", "date": "2023-03-28", "requiredNumberOfEmployees": 3 , "employees": [] },
+  { "timeSlot": "evening", "date": "2023-03-28", "requiredNumberOfEmployees": 4 , "employees": [] },
+
+  { "timeSlot": "morning", "date": "2023-03-29", "requiredNumberOfEmployees": 4 , "employees": [] },
+  { "timeSlot": "afternoon", "date": "2023-03-29", "requiredNumberOfEmployees": 5 , "employees": [] },
+  { "timeSlot": "evening", "date": "2023-03-29", "requiredNumberOfEmployees": 3 , "employees": [] },
+
+  { "timeSlot": "morning", "date": "2023-03-30", "requiredNumberOfEmployees": 5 , "employees": [] },
+  { "timeSlot": "afternoon", "date": "2023-03-30", "requiredNumberOfEmployees": 4 , "employees": [] },
+  { "timeSlot": "evening", "date": "2023-03-30", "requiredNumberOfEmployees": 2 , "employees": [] },
+
+  { "timeSlot": "morning", "date": "2023-03-31", "requiredNumberOfEmployees": 3 , "employees": [] },
+  { "timeSlot": "afternoon", "date": "2023-03-31", "requiredNumberOfEmployees": 2 , "employees": [] },
+  { "timeSlot": "evening", "date": "2023-03-31", "requiredNumberOfEmployees": 4 , "employees": [] },
+
+  { "timeSlot": "morning", "date": "2023-04-01", "requiredNumberOfEmployees": 4 , "employees": [] },
+  { "timeSlot": "afternoon", "date": "2023-04-01", "requiredNumberOfEmployees": 3 , "employees": [] },
+  { "timeSlot": "evening", "date": "2023-04-01", "requiredNumberOfEmployees": 5 , "employees": [] },
+
+  { "timeSlot": "morning", "date": "2023-04-02", "requiredNumberOfEmployees": 3 , "employees": [] },
+  { "timeSlot": "afternoon", "date": "2023-04-02", "requiredNumberOfEmployees": 4 , "employees": [] },
+  { "timeSlot": "evening", "date": "2023-04-02", "requiredNumberOfEmployees": 2 , "employees": [] }
+]

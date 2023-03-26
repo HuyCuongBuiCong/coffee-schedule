@@ -1,0 +1,12 @@
+[
+  { "id": 1, "fullName": "John Doe", "shifts": [] },
+  { "id": 2, "fullName": "Jane Smith", "shifts": [] },
+  { "id": 3, "fullName": "Bob Johnson", "shifts": [] },
+  { "id": 4, "fullName": "Lisa Kim", "shifts": [] },
+  { "id": 5, "fullName": "Tom Lee", "shifts": [] },
+  { "id": 6, "fullName": "Emily Chen", "shifts": [] },
+  { "id": 7, "fullName": "David Wang", "shifts": [] },
+  { "id": 8, "fullName": "Alex Rodriguez", "shifts": [] },
+  { "id": 9, "fullName": "Maria Garcia", "shifts": [] },
+  { "id": 10, "fullName": "James Davis", "shifts": [] }
+]
