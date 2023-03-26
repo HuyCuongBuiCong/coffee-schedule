@@ -38,7 +38,7 @@ function fillShiftsWithEmployees(employees: Employee[], shifts: Shift[]): void {
 
         if (shift.employees.length === shift.requiredNumberOfEmployees) {
             // Step 8: mark shift as unfilled
-            shift.isUnfilled = true;
+            shift.isFulfilled = true;
         }
     }
 }

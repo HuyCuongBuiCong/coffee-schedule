@@ -18,7 +18,7 @@ To use this service, simply modify the `db/sample/shifts.json` and `db/sample/em
 
 # Sample Output
 
-| Time Slot | Date       | Required Employees | Employees                                                                                       | Unfilled |
+| Time Slot | Date       | Required Employees | Employees                                                                                       | Fulfilled |
 |-----------|------------|--------------------|-------------------------------------------------------------------------------------------------|----------|
 | morning   | 2023-03-27 | 3                  | John Doe, Maria Garcia, Alex Rodriguez                                                         | true     |
 | afternoon | 2023-03-27 | 4                  | Bob Johnson, John Doe, David Wang, Emily Chen                                                   | true     |

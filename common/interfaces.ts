@@ -3,7 +3,7 @@ export interface Shift {
     date: Date;
     requiredNumberOfEmployees?: number;
     employees?: Employee[];
-    isUnfilled?: boolean;
+    isFulfilled?: boolean;
 }
 
 export interface Employee {
