@@ -4,17 +4,71 @@ This is an application that helps assign employees to different shifts based on 
 # Installation
 
 ```
-  yarn install
+ yarn install
 ```
 
 # Running the application
 
 ```
-  yarn dev
+ yarn dev
 ```
 
 # Usage
 To use this service, simply modify the `db/sample/shifts.json` and `db/sample/employees.json` file to include the employees and shifts you want to assign. 
+
+# Sample Inout
+
+employees.json
+```json
+[
+  { "id": 1, "fullName": "John Doe", "shifts": [] },
+  { "id": 2, "fullName": "Jane Smith", "shifts": [] },
+  { "id": 3, "fullName": "Bob Johnson", "shifts": [] },
+  { "id": 4, "fullName": "Lisa Kim", "shifts": [] },
+  { "id": 5, "fullName": "Tom Lee", "shifts": [] },
+  { "id": 6, "fullName": "Emily Chen", "shifts": [] },
+  { "id": 7, "fullName": "David Wang", "shifts": [] },
+  { "id": 8, "fullName": "Alex Rodriguez", "shifts": [] },
+  { "id": 9, "fullName": "Maria Garcia", "shifts": [] },
+  { "id": 10, "fullName": "James Davis", "shifts": [] }
+]
+
+
+```
+
+shifts.json
+```json
+[
+  { "timeSlot": "morning", "date": "2023-03-27", "requiredNumberOfEmployees": 3 , "employees": [] },
+  { "timeSlot": "afternoon", "date": "2023-03-27", "requiredNumberOfEmployees": 4 , "employees": [] },
+  { "timeSlot": "evening", "date": "2023-03-27", "requiredNumberOfEmployees": 5 , "employees": [] },
+
+  { "timeSlot": "morning", "date": "2023-03-28", "requiredNumberOfEmployees": 2 , "employees": [] },
+  { "timeSlot": "afternoon", "date": "2023-03-28", "requiredNumberOfEmployees": 3 , "employees": [] },
+  { "timeSlot": "evening", "date": "2023-03-28", "requiredNumberOfEmployees": 4 , "employees": [] },
+
+  { "timeSlot": "morning", "date": "2023-03-29", "requiredNumberOfEmployees": 4 , "employees": [] },
+  { "timeSlot": "afternoon", "date": "2023-03-29", "requiredNumberOfEmployees": 5 , "employees": [] },
+  { "timeSlot": "evening", "date": "2023-03-29", "requiredNumberOfEmployees": 3 , "employees": [] },
+
+  { "timeSlot": "morning", "date": "2023-03-30", "requiredNumberOfEmployees": 5 , "employees": [] },
+  { "timeSlot": "afternoon", "date": "2023-03-30", "requiredNumberOfEmployees": 4 , "employees": [] },
+  { "timeSlot": "evening", "date": "2023-03-30", "requiredNumberOfEmployees": 2 , "employees": [] },
+
+  { "timeSlot": "morning", "date": "2023-03-31", "requiredNumberOfEmployees": 3 , "employees": [] },
+  { "timeSlot": "afternoon", "date": "2023-03-31", "requiredNumberOfEmployees": 2 , "employees": [] },
+  { "timeSlot": "evening", "date": "2023-03-31", "requiredNumberOfEmployees": 4 , "employees": [] },
+
+  { "timeSlot": "morning", "date": "2023-04-01", "requiredNumberOfEmployees": 4 , "employees": [] },
+  { "timeSlot": "afternoon", "date": "2023-04-01", "requiredNumberOfEmployees": 3 , "employees": [] },
+  { "timeSlot": "evening", "date": "2023-04-01", "requiredNumberOfEmployees": 5 , "employees": [] },
+
+  { "timeSlot": "morning", "date": "2023-04-02", "requiredNumberOfEmployees": 3 , "employees": [] },
+  { "timeSlot": "afternoon", "date": "2023-04-02", "requiredNumberOfEmployees": 4 , "employees": [] },
+  { "timeSlot": "evening", "date": "2023-04-02", "requiredNumberOfEmployees": 2 , "employees": [] }
+]
+
+```
 
 # Sample Output
 
