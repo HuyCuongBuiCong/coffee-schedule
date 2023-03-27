@@ -16,7 +16,7 @@ This is an application that helps assign employees to different shifts based on 
 # Usage
 To use this service, simply modify the `db/sample/shifts.json` and `db/sample/employees.json` file to include the employees and shifts you want to assign. 
 
-# Sample Inout
+# Sample Input
 
 employees.json
 ```json
